@@ -9,6 +9,8 @@ import thunk from 'redux-thunk';
 import { AppReducer as reducer } from './store/reducer/reducerIndex.js';
 import reportWebVitals from './reportWebVitals';
 
+require('dotenv').config();
+
 const applicationStore = createStore(reducer, applyMiddleware(thunk));
 
 ReactDOM.render(

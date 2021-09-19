@@ -7,9 +7,9 @@ import {
 } from "../actions/actions.js"
 
 const initialState = {
-    isFetching: false,
+    isFetching: true,
     isSuccessful: false,
-    image: '',
+    image: null,
     likes: 0,
     comments: [],
     error: ''

@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import { loadState, saveState } from './utils/localStorage'
 import { BrowserRouter as Router } from 'react-router-dom';
 import { createStore, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
@@ -11,7 +12,13 @@ import reportWebVitals from './reportWebVitals';
 
 require('dotenv').config();
 
-const applicationStore = createStore(reducer, applyMiddleware(thunk));
+const persistedState = loadState();
+
+const applicationStore = createStore(reducer, persistedState, applyMiddleware(thunk));
+
+applicationStore.subscribe(() => {
+  saveState(applicationStore.getState());
+});
 
 ReactDOM.render(
   <Provider store={applicationStore} >

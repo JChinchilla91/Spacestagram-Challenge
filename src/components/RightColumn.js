@@ -4,7 +4,7 @@ import PhotoCard from "./PhotoCard";
 
 function RightColumn() {
     return (
-        <div className='left-column'>
+        <div className='right-column'>
             <BlogEntries />
             <PhotoCard />
         </div>

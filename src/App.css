@@ -874,3 +874,7 @@ playback timings (ms):
   CDXLines.iter: 16.645 (3)
   load_resource: 107.332
 */
+
+.right-column {
+	margin-left: 55px;
+}

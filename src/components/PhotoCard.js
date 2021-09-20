@@ -33,6 +33,7 @@ const PhotoCard = props => {
                             
                         ) : <img onClick={() => props.updateLike()} src='/iconmonstr-heart-thin.png' alt='Heart' />}
                     </div>
+                    <p className='description'>{props.image.explanation}</p>
                 </div>
                 }
         </div>

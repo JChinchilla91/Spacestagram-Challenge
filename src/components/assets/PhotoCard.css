@@ -18,6 +18,7 @@
     margin-bottom: 10px;
 }
 
+
 .orangetext15 {
     margin-top: 2%;
 }
@@ -25,9 +26,16 @@
 .date-and-like-container {
     display: flex;
     justify-content: space-between;
+    width: 95%;
 }
 
 .date-and-like-container img {
     width: 20px;
     height: 20px;
+}
+
+.description {
+    font-size: 12px;
+    width: 95%;
+    margin: 3% auto;
 }

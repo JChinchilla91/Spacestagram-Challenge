@@ -1,0 +1,33 @@
+.title  {
+    width: 100%;
+    background-color: #ffcc99;
+    height: 22px;
+}
+
+.photo-card-container div h2 {
+    padding: 5px 5px;
+}
+
+.photo-container {
+    margin: auto 5%;
+}
+
+.photo-container img {
+    height: 410px;
+    width: 397px;
+    margin-bottom: 10px;
+}
+
+.orangetext15 {
+    margin-top: 2%;
+}
+
+.date-and-like-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.date-and-like-container img {
+    width: 20px;
+    height: 20px;
+}

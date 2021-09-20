@@ -2,7 +2,8 @@ import {
     FETCH_IMAGE_START,
     FETCH_IMAGE_SUCCESS,
     FETCH_IMAGE_FAILURE,
-    ADD_COMMENT
+    ADD_COMMENT,
+    UPDATE_LIKE
 
 } from "../actions/actions.js"
 
@@ -10,7 +11,7 @@ const initialState = {
     isFetching: true,
     isSuccessful: false,
     image: null,
-    likes: 0,
+    liked: false,
     comments: [],
     error: ''
 }
@@ -41,6 +42,12 @@ export const AppReducer = (state = initialState, action) => {
             return {
                 ...state,
                 comments: [...state.comments, action.payload]
+            }
+
+        case UPDATE_LIKE:
+            return {
+                ...state,
+                liked: !state.liked
             }
         default:
             return state;

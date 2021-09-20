@@ -1,0 +1,27 @@
+.ext-network {
+    display: flex;
+    border: 2px solid;
+    width: 435px;
+    height: 75px;
+    place-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.ext-network h2 {
+    font-weight: 700;
+}
+
+.blog-entries {
+    margin: 15px auto;
+    font-size: 11px;
+}
+
+.blog-entries h3 {
+    font-weight: 700;
+}
+
+.blog-entries > * {
+    margin: 15px auto;
+    letter-spacing: .6px;
+}

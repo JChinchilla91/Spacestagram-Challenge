@@ -2,15 +2,17 @@ import './App.css';
 import './reset.css';
 
 import NavBar from './components/NavBar.js';
-import CreatorCard from './components/CreatorCard.js'
-import PhotoCard from './components/PhotoCard.js';
+import LeftColumn from './components/LeftColumn.js'
+import RightColumn from './components/RightColumn';
 
 function App() {
   return (
     <div className='App'>
       <NavBar />
-      <CreatorCard />
-      <PhotoCard />
+      <div className='Content'>
+        <LeftColumn />
+        <RightColumn />
+      </div>
     </div>
   );
 }

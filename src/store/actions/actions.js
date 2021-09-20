@@ -6,6 +6,7 @@ export const FETCH_IMAGE_START = 'FETCH_IMAGE_START';
 export const FETCH_IMAGE_SUCCESS = 'FETCH_IMAGE_SUCCESS';
 export const FETCH_IMAGE_FAILURE = 'FETCH_IMAGE_FAILURE';
 export const ADD_COMMENT = 'ADD_COMMENT'
+export const UPDATE_LIKE = 'UPDATE_LIKE'
 
 export const fetchImage = () => {
     return dispatch => {
@@ -24,5 +25,11 @@ export const addComment = comment => {
     return {
         type: ADD_COMMENT,
         payload: comment
+    }
+}
+
+export const updateLike = () => {
+    return {
+        type: UPDATE_LIKE
     }
 }

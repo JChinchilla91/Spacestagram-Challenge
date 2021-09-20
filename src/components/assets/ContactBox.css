@@ -1,0 +1,16 @@
+.left-column-container {
+    width: 300px;
+    border: 2px solid #6699cc;
+    margin-top: 10%;
+}
+
+.left-column-title {
+    background-color: #6699cc;
+    padding: 5px 5px;
+}
+
+.icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

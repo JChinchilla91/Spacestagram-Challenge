@@ -12,7 +12,20 @@ const initialState = {
     isSuccessful: false,
     image: null,
     liked: false,
-    comments: [],
+    comments: [
+        {
+            id: 0,
+            username: 'xxcoolguyxx',
+            content: 'Cool App!',
+            imgURL: '/user.png'
+        },
+        {
+            id: 1,
+            username: 'myspaceuser',
+            content: 'Wow, impressive!',
+            imgURL: '/user.png'
+        }
+    ],
     error: ''
 }
 

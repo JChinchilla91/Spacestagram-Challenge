@@ -7,9 +7,6 @@ function Interests() {
                 <h2 className='whitetext12'>Josh's Interests</h2>
             </div>
             <div className='interests-container'>
-                <div className='interest-title'>
-                    
-                </div>
                 <div className='interest'>
                        <h3 className='lightbluetext8'>General</h3>
                        <p>	Internet, Movies, Reading, Dancing, Karaoke, Baseball,

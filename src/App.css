@@ -878,3 +878,7 @@ playback timings (ms):
 .right-column {
 	margin-left: 55px;
 }
+
+.radio-text {
+	font-size: 12px;
+}

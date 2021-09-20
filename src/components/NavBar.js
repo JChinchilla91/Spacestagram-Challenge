@@ -8,12 +8,12 @@ const NavBar = () => {
                 <tbody>
                     <tr>
                         <td>
-                            <a href='/' className="navbar" ><font color="FFFFFF">MySpaceStagram.com</font></a>&nbsp;<font color="FFFFFF">|</font>&nbsp;
+                            <a href='/' className="navbar" ><font color="FFFFFF" >MySpaceStagram.com</font></a>&nbsp;<font color="FFFFFF">|</font>&nbsp;
                             <a href='/' className="navbar"><font color="FFFFFF">Home</font></a>
                         </td>	
                         <td align="left">
-                            <font color="FFFFFF">The Web 
-                            <input type="radio" name="searchtype" value="web"/> MySpaceStagram
+                            <font color="FFFFFF"><span className='radio-text'>The Web</span> 
+                            <input type="radio" name="searchtype" value="web"/> <span className='radio-text'>MySpaceStagram</span>
                             <input type="radio" name="searchtype" value="myspace" /> 
                             <input name="searchrequest" type="text" size="25" maxLength="75" />&nbsp;&nbsp;&nbsp;<input type="submit" value="Search" />
                             </font>

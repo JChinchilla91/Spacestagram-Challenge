@@ -21,19 +21,18 @@
 
 .interest {
     display: flex;
-
     background-color: #ffffff;
 }
 
 .interest h3 {
     width: 100px;
-    margin: 1%;
+    margin: .5% .5% .5% .5%;
     padding: 5px 5px;
     background-color: #b1d0f0;
 }
 
 .interest p {
-    margin: 1%;
+    margin: .5% .5% .5% .5%;
     padding: 5px 5px;
     width: 175px;
     background-color: #d5e8fb;

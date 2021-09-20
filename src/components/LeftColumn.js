@@ -1,5 +1,5 @@
 import CreatorCard from "./CreatorCard.js"
-import ContactBox from './ContactBox.js'
+import ContactBox from './ContactBox'
 import Interests from "./Interests.js";
 
 function LeftColumn() {

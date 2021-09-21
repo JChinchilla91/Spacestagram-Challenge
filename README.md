@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+# Shopify Frontend Developer Intern Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Link to finished project - https://jchinchilla-spacestagram.netlify.app/
 
-## Available Scripts
+Before this year, I don't think I could have told you anything about Shopify. I was still in the last unit at [Lambda School](https://lambdaschool.com/) when I saw an open position at a local company and I applied because I thought, 'why not?' The requirements listed didn't seem out of my reach and I knew I had nothing to lose. I thought I would pick it up with no problem, but it ended up being a lot tougher than I thought.
 
-In the project directory, you can run:
+I landed the position and dove head first into Shopify development. I absolutely struggled those first couple of months. I was (and still am) the only developer at the company and it was quite an experience trying to manuever in something I hadn't ever dealt with before. The [shopify documentation](https://shopify.dev/api/liquid) became my bible. The biggest thing I learned at Lambda was learning how to learn and I am eternally grateful for that; it's what got me through the rough start of my career.
 
-### `yarn start`
+As I started to become more comfortable in Shopify development, I became aware of how great Shopify is. Both to their employees and to customers. I loved the idea of giving everyone the opportunity to not only start their own business, but making the process of having an online storefront so easy! All the resources I came across (shout out to Liam Griffin!) gave me a really good impression of the community Shopify has created. I thought it would be such a great opportunity to be a part of such a great culture.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+So of course when I saw this opportunity arise, I knew I had to apply for it!
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Tools Used
 
-### `yarn test`
+App was created with React, Redux for state management. Heavily relied on the Internet Archive and used [this version](https://web.archive.org/web/20060311153235/http://www.myspace.com/Tom) of myspace to build my project off of.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## About the Project
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The MVP for this project was to fetch data from any of NASA'S API's to display an image along with the title, date, description, etc. We had to be able to also add a 'like' functionality. My styling came from Myspace, where I (along with countless others) got my start in web development. I added state that persisted if user left or refreshed the page, a loading gif in place of the image when waiting for a response from the NASA API, and the ability to comment on the page. Hope you enjoy the small nostalgia trip!

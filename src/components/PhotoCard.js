@@ -10,7 +10,7 @@ const PhotoCard = props => {
     useEffect(() => {
         if ( !props.image )
         props.fetchImage();
-    }, []);
+    });
 
     return (
         <div className='photo-card-container'>
@@ -24,7 +24,7 @@ const PhotoCard = props => {
             ) : 
                 <div className='photo-container'>
                     <h2 className='orangetext15'>{props.image.title}:</h2>
-                    <img src={props.image.hdurl} alt='NASA photo of the day' />
+                    <img src={props.image.hdurl} alt='NASA PHOD' />
                     <div className='date-and-like-container'>
                         <p>{props.image.date}</p>
                         {props.liked ? (

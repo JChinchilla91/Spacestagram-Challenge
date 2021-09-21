@@ -1,4 +1,9 @@
+#root {
+	background-color: #E5E5E5;
+}
+
 .App {
+  background-color: #ffffff;
   width: 800px;
   margin: 0 auto;
 }
@@ -876,7 +881,7 @@ playback timings (ms):
 */
 
 .right-column {
-	margin-left: 55px;
+	margin-left: 40px;
 }
 
 .radio-text {

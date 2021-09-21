@@ -1,3 +1,7 @@
+.comments-card-container {
+    margin-bottom: 10%;
+}
+
 .comment {
     display: flex;
     margin-left: 2%;
@@ -35,11 +39,16 @@ input {
 
 textarea {
     margin: 2% auto;
-    width: 100%;
+    width: 95%;
     height: 100px;
     resize: none;
 }
 
 button {
     margin: 2% auto;
+}
+
+.comment-container {
+    display: flex;
+    flex-direction: column-reverse;
 }

@@ -3,7 +3,7 @@ import './assets/BlogEntries.css'
 
 function BlogEntries() {
     return (
-        <div>
+        <div className='blog-container'>
             <div className='ext-network'>
                 <h2>Josh is in your extended network</h2>
             </div>

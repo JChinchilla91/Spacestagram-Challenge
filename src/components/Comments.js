@@ -21,7 +21,6 @@ const CommentsCard = props => {
 
     const submitForm = e => {
         e.preventDefault();
-        console.log('yo')
 
         const commentToAdd = {
             ...newComment
@@ -41,6 +40,7 @@ const CommentsCard = props => {
         <div className='comments-card-container'>
             <div className='title'>
                 <h2 className='orangetext15'>Josh's Friends Comments</h2>
+            </div>
 
                 <form onSubmit={submitForm}>
                     <input
@@ -58,20 +58,21 @@ const CommentsCard = props => {
                       placeholder='Comment here'
                       onChange={handleChange}
                     />
-
-                    <button type='submit'>Add Comment</button>
+                    {newComment.content && newComment.username ? (
+                        <button type='submit'>Add Comment</button>
+                    ) : <button disabled>Please add comment and/or username</button>}
 
                 </form>
-
-                {props.comments.map(comment => {
-                    return (
-                        <div key={comment.id} className='comment'>
-                            <a href='/'>{ comment.username } <img src={comment.imgURL} alt='User'/></a>
-                            <p>{ comment.content }</p>
-                        </div>
-                    )
-                })}
-            </div>
+                <div className='comment-container'>
+                    {props.comments.map(comment => {
+                        return (
+                            <div key={comment.id} className='comment'>
+                                <a href='/'>{ comment.username } <img src={comment.imgURL} alt='User'/></a>
+                                <p>{ comment.content }</p>
+                            </div>
+                        )
+                    })}
+                </div>
         </div>
     )
 }

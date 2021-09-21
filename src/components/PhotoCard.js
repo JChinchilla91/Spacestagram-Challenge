@@ -17,7 +17,6 @@ const PhotoCard = props => {
             <div className='title'>
                 <h2 className='orangetext15'>NASA APOD</h2>
             </div>
-            {console.log('yo', props.image)}
             {props.isFetching ? (
                 <div className='photo-container'>
                     <img src='/globe-rotating.gif' alt='Rotating globe'/>

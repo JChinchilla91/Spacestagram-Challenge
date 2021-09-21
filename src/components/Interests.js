@@ -9,11 +9,8 @@ function Interests() {
             <div className='interests-container'>
                 <div className='interest'>
                        <h3 className='lightbluetext8'>General</h3>
-                       <p>	Internet, Movies, Reading, Dancing, Karaoke, Baseball,
-                            Language, Culture, History of Communism, 
-                            Philosophy, Singing/Writing Music, Running, 
-                            Finding New Food, Weight Lifting, Hiking, WWI Aviation, 
-                            Travel, Building alternate communities</p> 
+                       <p> Books, music, food, cycling, being a dad, fighting games,
+                           learning new things</p> 
                 </div>
                 <div className='interest'>
                        <h3 className='lightbluetext8'>Music</h3>

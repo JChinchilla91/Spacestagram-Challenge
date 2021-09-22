@@ -24,7 +24,11 @@ const PhotoCard = props => {
             ) : 
                 <div className='photo-container'>
                     <h2 className='orangetext15'>{props.image.title}:</h2>
-                    <img src={props.image.hdurl} alt='NASA PHOD' />
+                    {props.image.media_type === 'video' ? (
+                        <iframe title='Nasa Video' id='ytplayer' type='text/html' width='410' height='360'
+                          src={props.image.url + '&controls=0&autoplay=1'}></iframe>
+                    ) : <img src={props.image.hdurl} alt='NASA PHOD' /> }
+                    
                     <div className='date-and-like-container'>
                         <p>{props.image.date}</p>
                         {props.liked ? (
